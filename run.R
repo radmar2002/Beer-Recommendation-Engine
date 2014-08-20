@@ -1,5 +1,5 @@
 rm(list=ls())
 library(shiny)
-setwd("D:/WORK_2014/Certification_Data_Science/Developing_Data_Products/Application/Beer_Recommendation_App/Beer-Recommendation-Engine/")
+setwd("D:/COURSERA_DATA_SCIENCE/Developing_Data_Products/BeerRecApp/Beer-Recommendation-Engine/")
 list.files()
 runApp("RecommendApp")

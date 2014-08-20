@@ -6,7 +6,7 @@ library(igraph)
 library(rgl)
 require (class)
 
-data1 <<- read.csv("D:/WORK_2014/Certification_Data_Science/Developing_Data_Products/Application/Beer_Recommendation_App/Beer-Recommendation-Engine/RecommendApp/data/BeersForApplicationMain.csv")
+data1 <<- read.csv("~/data/BeersForApplicationMain.csv")
 
 ## Find k nearest neighbors of X[n, ] in the data frame
 ## or matrix X, utilizing function knn1 k-times.
