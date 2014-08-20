@@ -1,12 +1,13 @@
 rm(list=ls())
+options(rgl.useNULL=TRUE)
 library("shiny")
+library(rgl)
 library("shinyRGL")
 library(stringdist)
 library(igraph)
-library(rgl)
 require (class)
 
-data1 <<- read.csv("./data/BeersForApplicationMain.csv")
+data1 <<- read.csv("BeersForApplicationMain.csv")
 
 ## Find k nearest neighbors of X[n, ] in the data frame
 ## or matrix X, utilizing function knn1 k-times.

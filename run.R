@@ -1,11 +1,6 @@
 rm(list=ls())
 library(shiny)
-setwd("D:/COURSERA_DATA_SCIENCE/Developing_Data_Products/BeerRecApp/Beer-Recommendation-Engine/")
+getwd()
 list.files()
-runApp("RecommendApp")
+runApp("c:/Users/mariusr/Documents/RecommendApp")
 
-
-~/.Renviron
-
-HOME
-R_USER
